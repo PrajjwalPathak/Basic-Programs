@@ -1,4 +1,6 @@
 # Program to check if a number is prime or not
+#Author: RAVI KUMAR MISHRA
+#Date Modified: 2nd October 2021
 
 num = 407
 
