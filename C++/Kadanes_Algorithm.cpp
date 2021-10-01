@@ -1,5 +1,8 @@
-// Tanya Gupta
-// Kadane's Algorithm for Maximum Subarray Sum
+/*
+Kadane's Algorithm for Maximum Subarray Sum
+Author: Tanya Gupta
+Date Modified: 2nd October 2021
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
