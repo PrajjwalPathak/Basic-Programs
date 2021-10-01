@@ -1,5 +1,9 @@
-//Anuj Singh
-//C++ Program to Check Whether a Number is Palindrome or Not
+/*
+C++ Program to Check Whether a Number is Palindrome or Not
+Author: Anuj Singh
+Date Modified: 1st October 2021
+*/
+
 #include <iostream>
 using namespace std;
 
