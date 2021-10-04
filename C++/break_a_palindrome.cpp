@@ -4,6 +4,11 @@ Author: mayanjain
 Date Modified: 2nd October 2021
 */
 
+#include<iostream>
+#include <algorithm>
+
+using namespace std;
+
 class Solution
 {
 public:

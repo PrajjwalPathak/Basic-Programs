@@ -2,6 +2,13 @@
 Author: jainanubhuti
 Date Modified: 2nd October 2021
 */
+
+#include<iostream>
+#include <algorithm>
+#include<vector>
+
+using namespace std;
+
 class Solution {
 public:
     vector<vector<int>> ans;
