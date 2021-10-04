@@ -1,3 +1,6 @@
+#Author: cherishedball
+#Date Modified: 4th October 2021
+
 import cv2
 path = input("Enter the path and name of the image==")
 print("YOU ENTERED ==",path)
