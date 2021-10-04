@@ -8,6 +8,8 @@ This is public project for event hactoberfest 2021
 
 ## What to do?
 
+<a href="/CONTRIBUTING.md"><h1>CONTRIBUTING.md</h1></a>
+
 Add any project, piece of code or script of your choice you wish to share in this repository.
    **Add your projects under the respective tech stack folder only**   
 
