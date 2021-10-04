@@ -10,3 +10,4 @@
   <li>Filename should be meaningful.</li>
   <li>Path of your code: /Programming Language/codeName.extension (For example: /Python/Palindrome.py).</li>
 </ul>
+<h3>Note: Your PR will get rejected if the guidelines are not followed.<h3>
