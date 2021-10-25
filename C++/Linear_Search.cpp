@@ -10,26 +10,39 @@ using namespace std;
 int main()
 {
     int n, ele, a[50];
+    bool loop;
+    char decision;
 
-    cout << "Enter the size of the array: ";
-    cin >> n;
-
-    cout << "Enter the element to be searched: ";
-    cin >> ele;
-
-    cout << "Enter the array elements: ";
-    for (int i = 0; i < n; i++)
+    do
     {
-        cin >> a[i];
-    }
+        cout << "Enter the size of the array: ";
+        cin >> n;
 
-    for (int i = 0; i < n; i++)
-    {
-        if (a[i] == ele)
+        cout << "Enter the element to be searched: ";
+        cin >> ele;
+
+        cout << "Enter the array elements: ";
+        for (int i = 0; i < n; i++)
         {
-            cout << "Element found at index " << i << endl;
+            cin >> a[i];
         }
-    }
+
+        for (int i = 0; i < n; i++)
+        {
+            if (a[i] == ele)
+            {
+                cout << "Element found at index " << i << endl;
+            }
+        }
+
+        cout<<"Do you want to continue? Y/N \n >>";
+        cin>>decision;
+        if(decision=='Y'||decision=='y') loop=true;
+        else loop=false;
+        
+    }while(loop==true);
+
+
 
     return 0;
 }
