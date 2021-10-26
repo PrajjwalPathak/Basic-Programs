@@ -33,19 +33,34 @@ void InsertionSort(int a[], int n)
 
 int main()
 {
+
+    char choose;
+    bool loop;
     int n;
-    cin >> n;
 
-    int a[50];
-    for (int i = 0; i < n; i++)
-    {
-        cin >> a[i];
-    }
+    do{
+        cin >> n;
 
-    InsertionSort(a, n);
+        int a[50];
+        for (int i = 0; i < n; i++)
+        {
+            cin >> a[i];
+        }
 
-    cout << "The sorted array: ";
-    display(a, n);
+        InsertionSort(a, n);
+
+        cout << "The sorted array: ";
+        display(a, n);
+
+        cout<<endl<<----------------------------<<endl;
+        cout<<"do you want to continue? Y/N"<<endl<<">>";
+        cin>>choose;
+        if(choose=='Y'||choose=='y') loop=true;
+        else loop=false;
+        cout<<endl<<endl;
+
+    }while(loop==true);
+
 
     return 0;
 }
